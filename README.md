@@ -4,7 +4,7 @@ A modern, professional portfolio website for a Lead QA Automation Engineer with 
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://YOUR-USERNAME.github.io/portfolio-nitin/](https://YOUR-USERNAME.github.io/portfolio-nitin/)
+Visit the live site: [https://nitindixit720.github.io/](https://nitindixit720.github.io/)
 
 ## ✨ Features
 
@@ -28,10 +28,10 @@ Visit the live site: [https://YOUR-USERNAME.github.io/portfolio-nitin/](https://
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/portfolio-nitin.git
+git clone https://github.com/nitindixit720/nitindixit720.github.io.git
 
 # Navigate to project directory
-cd portfolio-nitin
+cd nitindixit720.github.io
 
 # Install dependencies
 npm install
@@ -67,7 +67,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/portfolio-nitin.git
+   git remote add origin https://github.com/nitindixit720/nitindixit720.github.io.git
    git push -u origin main
    ```
 
@@ -76,12 +76,10 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
    - Navigate to **Settings** → **Pages**
    - Under **Source**, select **GitHub Actions**
 
-3. **Update Base Path** (if repository name is different)
-   - Open `vite.config.ts`
-   - Update the `base` value to match your repository name:
-     ```typescript
-     base: '/YOUR-REPO-NAME/',
-     ```
+3. **Base Path Configuration**
+   - The `vite.config.ts` is already configured with `base: '/'` for root domain deployment
+   - This is correct for `username.github.io` repositories
+   - No changes needed
 
 4. **Push Your Changes**
    ```bash
@@ -91,7 +89,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 5. **Automatic Deployment**
    - The GitHub Actions workflow will automatically build and deploy your site
    - Check the **Actions** tab in your repository to monitor the deployment
-   - Once complete, your site will be live at: `https://YOUR-USERNAME.github.io/portfolio-nitin/`
+   - Once complete, your site will be live at: `https://nitindixit720.github.io/`
 
 ### Manual Deployment
 
@@ -117,11 +115,9 @@ npm run build
 
 ### Update Social Links
 
-Edit `src/components/Hero.tsx` to update LinkedIn and GitHub URLs:
-```typescript
-href="https://www.linkedin.com/in/YOUR-PROFILE"
-href="https://github.com/YOUR-USERNAME"
-```
+Social links are already configured in `src/components/Hero.tsx`:
+- LinkedIn: https://www.linkedin.com/in/nitindixit-720/
+- GitHub: https://github.com/nitindixit720
 
 ### Add Your Resume
 
@@ -133,7 +129,7 @@ Replace the placeholder PDF:
 ## 📂 Project Structure
 
 ```
-portfolio-nitin/
+nitindixit720.github.io/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # GitHub Actions workflow
