@@ -1,17 +1,19 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Code2, Rocket, Users, Award } from 'lucide-react'
+import { Code2, Rocket, Users, Award, BrainCircuit } from 'lucide-react'
 
 const About = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const highlights = [
-    { icon: Code2, text: '8+ Years Experience', color: 'text-primary-400' },
-    { icon: Rocket, text: 'CI/CD Expert', color: 'text-purple-400' },
-    { icon: Users, text: 'Team Leadership', color: 'text-green-400' },
-    { icon: Award, text: 'Enterprise Delivery', color: 'text-yellow-400' },
+    { icon: Code2, text: '11+ Years Experience', color: 'text-primary-400' },
+    { icon: Rocket, text: 'Big Data + Spark Expert', color: 'text-purple-400' },
+    {icon: BrainCircuit, text:'AI Specialist', color: 'text-yellow-400'},
+    { icon: Users, text: 'Team Leadership', color: 'text-green-400' }
+    //{ icon: Award, text: 'Enterprise Delivery', color: 'text-yellow-400' },
+    
   ]
 
   return (
@@ -36,20 +38,13 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-lg text-slate-300 leading-relaxed">
-                With <span className="text-primary-400 font-semibold">8+ years of experience</span> in QA Automation, 
-                I specialize in building scalable test frameworks that drive quality at enterprise scale. My expertise 
-                spans <span className="text-primary-400 font-semibold">UI and API automation</span> for web and mobile 
-                platforms, leveraging tools like Selenium, Cypress, and REST Assured.
+                With 11+ years of experience in Data Engineering and Big Data technologies. Currently, I work as a Technology Lead, where I design and develop scalable ETL solutions for the banking domain. My expertise includes <span className="text-primary-400 font-semibold">Apache Spark, Hadoop, Hive, Azure Data Factory, Azure Databricks, Azure Data Lake, SQL, and cloud-based data engineering.</span> I enjoy building efficient, high-performance data pipelines and solving complex data challenges.
+              </p>
+              <p  className="text-lg text-slate-300 leading-relaxed">
+                Throughout my career, I have worked on enterprise data platforms, cloud migration, and end-to-end ETL implementations. My responsibilities include <span className="text-primary-400 font-semibold">solution design, performance optimization, and mentoring team members.</span> I have also worked with Azure services, Power BI, SSIS, and .NET technologies, giving me a strong technical foundation.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I've successfully integrated automation suites into <span className="text-primary-400 font-semibold">CI/CD pipelines</span>, 
-                reducing regression cycles by up to 50% and improving release quality for major clients including UBS. 
-                My focus is on delivering measurable impact through robust test strategies and continuous testing practices.
-              </p>
-              <p className="text-lg text-slate-300 leading-relaxed">
-                Currently seeking opportunities in <span className="text-primary-400 font-semibold">Spain</span>, 
-                I bring strong leadership experience in mentoring teams and driving automation excellence across 
-                Banking, FinTech, AgriTech, and SaaS domains.
+                I am now looking for an opportunity to contribute my expertise while continuing to learn and grow professionally.
               </p>
             </motion.div>
 

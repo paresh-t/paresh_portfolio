@@ -18,7 +18,7 @@ const Navigation = () => {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
+    { name: 'Achievements', href: '#achievements' },
     { name: 'Contact', href: '#contact' },
   ]
 
@@ -37,7 +37,7 @@ const Navigation = () => {
             className="text-xl font-bold text-primary-400"
             whileHover={{ scale: 1.05 }}
           >
-            ND
+            PT
           </motion.a>
 
           <div className="hidden md:flex space-x-8">

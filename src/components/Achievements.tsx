@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Award, TrendingUp, Users, Building2 } from 'lucide-react'
+import { Award, TrendingUp, Users, Building2, Rotate3D } from 'lucide-react'
 
 const Achievements = () => {
   const ref = useRef(null)
@@ -10,26 +10,26 @@ const Achievements = () => {
   const achievements = [
     {
       icon: TrendingUp,
-      title: 'Automation Coverage Excellence',
-      description: 'Increased automation coverage from 40% to 85% across multiple projects',
+      title: 'Optimized Large-Scale Spark Processing',
+      description: 'Reduced Spark job processing latency by 30% through performance tuning, strategic partitioning, and caching, improving the efficiency of enterprise data pipelines',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Award,
-      title: 'Regression Cycle Reduction',
-      description: 'Reduced regression testing cycles by 50-60% through efficient framework design',
+      title: 'Delivered Enterprise Data Engineering Solutions',
+      description: 'Designed and developed scalable ETL pipelines using Apache Spark and Hadoop to process high-volume enterprise data for business-critical reporting and analytics',
       color: 'from-purple-500 to-pink-500',
+    },
+    {
+      icon: Rotate3D,
+      title: 'Led Successful Cloud Migration Initiatives',
+      description: 'Contributed to the migration of over 100 ETL pipelines from on-premises infrastructure to Microsoft Azure while ensuring data integrity and seamless production deployment',
+      color: 'from-green-500 to-emerald-500',
     },
     {
       icon: Users,
       title: 'Team Leadership & Mentorship',
-      description: 'Successfully mentored 4+ QA engineers on automation best practices and framework design',
-      color: 'from-green-500 to-emerald-500',
-    },
-    {
-      icon: Building2,
-      title: 'Enterprise Client Delivery',
-      description: 'Delivered high-quality automation solutions for UBS and other enterprise clients',
+      description: 'Led development teams by driving solution design, coordinating with stakeholders, mentoring team members, and ensuring successful delivery of enterprise data engineering projects',
       color: 'from-orange-500 to-red-500',
     },
   ]

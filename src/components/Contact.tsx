@@ -11,21 +11,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'nitindixit720@gmail.com',
-      href: 'mailto:nitindixit720@gmail.com',
+      value: 'takparesh@gmail.com',
+      href: 'mailto:takparesh@gmail.com',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 8999529084',
-      href: 'tel:+918999529084',
+      value: '+91 9762384301',
+      href: 'tel:+919762384301',
       color: 'from-green-500 to-emerald-500',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Spain',
+      value: 'Pune(India)',
       href: null,
       color: 'from-purple-500 to-pink-500',
     },
@@ -35,14 +35,8 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/pareshkumar-tak-4b744a77/',
       color: 'hover:text-blue-400',
-    },
-    {
-      icon: Github,
-      label: 'GitHub',
-      href: '#',
-      color: 'hover:text-slate-400',
     },
   ]
 
@@ -60,8 +54,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-purple-500 mx-auto mb-8" />
           <p className="text-center text-slate-400 text-lg mb-16 max-w-2xl mx-auto">
-            I'm currently seeking new opportunities in Spain. Feel free to reach out if you'd like to discuss 
-            QA automation, test frameworks, or potential collaborations.
+            I'm currently seeking a new opportunity in Big Data Professional role.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -124,7 +117,7 @@ const Contact = () => {
       <footer className="mt-20 pt-8 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-slate-500 text-sm">
-            © {new Date().getFullYear()} Nitin Dixit. All rights reserved.
+            © {new Date().getFullYear()} Paresh Tak. All rights reserved.
           </p>
         </div>
       </footer>

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Code, Cpu, Cloud, Wrench } from 'lucide-react'
+import { Code, Cpu, Cloud, Wrench, BoxesIcon, LandmarkIcon, Workflow } from 'lucide-react'
 
 const Skills = () => {
   const ref = useRef(null)
@@ -9,28 +9,60 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Programming & Scripting',
-      icon: Code,
+      title: 'Big Data & Processing',
+      icon: BoxesIcon,
       color: 'from-blue-500 to-cyan-500',
-      skills: ['Core Java', 'Python', 'Groovy'],
+      // skills: ['Spark', 'Hive', 'Python + Pyspark', 'Shell Script', 'Azure HD Insight', 'Azure Datalake'],
+      skills: [
+    'Apache Spark',
+    'Hive',
+    'Impala',
+    'Sqoop',
+    'PySpark',
+    'Shell Scripting'
+  ],
     },
     {
-      title: 'Automation & Testing',
-      icon: Cpu,
-      color: 'from-purple-500 to-pink-500',
-      skills: ['Selenium', 'Cypress', 'Appium', 'Rest Assured', 'BDD / TDD', 'Framework Design'],
-    },
-    {
-      title: 'DevOps & Cloud',
+      title: 'Cloud & Data Engineering',
       icon: Cloud,
-      color: 'from-green-500 to-emerald-500',
-      skills: ['Jenkins', 'GitHub Actions', 'Docker', 'Kubernetes', 'AWS'],
+      color: 'from-purple-500 to-pink-500',
+      // skills: ['Selenium', 'Cypress', 'Appium', 'Rest Assured', 'BDD / TDD', 'Framework Design'],
+      skills: [
+    'Azure Data Factory',
+    'Azure Databricks',
+    'Azure Data Lake',
+    'Azure HDInsight',
+    'Azure SQL Data Warehouse',
+    'Azure APIs'
+  ],
     },
     {
-      title: 'Tools & Platforms',
-      icon: Wrench,
+      title: 'DevOps & Scheduling',
+      icon: Workflow,
+      color: 'from-green-500 to-emerald-500',
+      // skills: ['Jenkins', 'GitHub Actions', 'Docker', 'Kubernetes', 'AWS'],
+      skills: [
+    'GitHub',
+    'Jenkins',
+    'UCDeploy',
+    'Control-M',
+    'Autosys',
+    'Azkaban'
+  ],
+    },
+    {
+      title: 'Data Governance & Collaboration',
+      icon: LandmarkIcon,
       color: 'from-orange-500 to-red-500',
-      skills: ['GitHub', 'JIRA', 'Confluence'],
+      // skills: ['GitHub','GitHub Copilot', 'JIRA', 'Control-M', 'Autosys', 'Service Now'],
+      skills: [
+    'JIRA',
+    'ServiceNow',
+    'Ranger',
+    'Ambari',
+    'NIA',
+    'Power BI'
+  ],
     },
   ]
 

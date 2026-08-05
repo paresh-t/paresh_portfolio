@@ -26,9 +26,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            <span className="text-slate-100">Nitin</span>{' '}
+            <span className="text-slate-100">Pareshkumar</span>{' '}
             <span className="bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              Dixit
+              Tak
             </span>
           </motion.h1>
 
@@ -38,7 +38,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Lead QA Automation Engineer
+            Lead Big Data Engineer
           </motion.h2>
 
           <motion.p
@@ -47,7 +47,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            Driving quality at scale through UI & API automation, CI/CD, and robust test frameworks
+            Transforming Data into Vision using Spark + Cloud + AI
           </motion.p>
 
           <motion.div
@@ -58,22 +58,13 @@ const Hero = () => {
           >
             <div className="flex flex-wrap gap-4 justify-center items-center">
               <a
-                href="https://www.linkedin.com/in/nitindixit-720/"
+                href="https://www.linkedin.com/in/pareshkumar-tak-4b744a77/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-blue-500/50 flex items-center gap-2"
               >
                 <Linkedin size={20} />
                 View LinkedIn
-              </a>
-              <a
-                href="https://github.com/nitindixit720"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-full font-semibold transition-all duration-300 border border-slate-600 hover:border-slate-500 flex items-center gap-2"
-              >
-                <Github size={20} />
-                View GitHub
               </a>
               <button
                 onClick={() => setShowResumeModal(true)}
@@ -108,10 +99,10 @@ const Hero = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between p-6 border-b border-slate-700">
-              <h3 className="text-2xl font-bold text-slate-100">Resume - Nitin Dixit</h3>
+              <h3 className="text-2xl font-bold text-slate-100">Resume - Pareshkumar Tak</h3>
               <div className="flex items-center gap-3">
                 <a
-                  href="/Nitin_Dixit_Lead_QA_Engineer.pdf"
+                  href="/Resume-Pareshkumar_Krishna_Tak.pdf"
                   download
                   className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-all duration-300 flex items-center gap-2"
                 >
@@ -130,7 +121,7 @@ const Hero = () => {
             </div>
             <div className="overflow-auto" style={{ height: 'calc(90vh - 88px)' }}>
               <iframe
-                src="/Nitin_Dixit_Lead_QA_Engineer.pdf"
+                src="/Resume-Pareshkumar_Krishna_Tak.pdf"
                 className="w-full h-full"
                 style={{ minHeight: '600px' }}
                 title="Resume PDF"
