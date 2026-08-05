@@ -102,7 +102,7 @@ const Hero = () => {
               <h3 className="text-2xl font-bold text-slate-100">Resume - Pareshkumar Tak</h3>
               <div className="flex items-center gap-3">
                 <a
-                  href="/Resume-Pareshkumar_Krishna_Tak.pdf"
+                  href="/paresh_portfolio/Resume-Pareshkumar_Krishna_Tak.pdf"
                   download
                   className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-all duration-300 flex items-center gap-2"
                 >
@@ -121,7 +121,7 @@ const Hero = () => {
             </div>
             <div className="overflow-auto" style={{ height: 'calc(90vh - 88px)' }}>
               <iframe
-                src="/Resume-Pareshkumar_Krishna_Tak.pdf"
+                src="/paresh_portfolio/Resume-Pareshkumar_Krishna_Tak.pdf"
                 className="w-full h-full"
                 style={{ minHeight: '600px' }}
                 title="Resume PDF"
