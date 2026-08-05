@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Award, TrendingUp, Users, Building2, Rotate3D } from 'lucide-react'
+import { Award, TrendingUp, Users, Rotate3D } from 'lucide-react'
 
 const Achievements = () => {
   const ref = useRef(null)

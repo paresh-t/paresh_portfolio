@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ChevronDown, Linkedin, Github, Eye, Download } from 'lucide-react'
+import { ChevronDown, Linkedin, Eye, Download } from 'lucide-react'
 import { useState } from 'react'
 
 const Hero = () => {

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Code2, Rocket, Users, Award, BrainCircuit } from 'lucide-react'
+import { Code2, Rocket, Users, BrainCircuit } from 'lucide-react'
 
 const About = () => {
   const ref = useRef(null)
