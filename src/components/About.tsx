@@ -8,7 +8,7 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const highlights = [
-    { icon: Code2, text: '11+ Years Experience', color: 'text-primary-400' },
+    { icon: Code2, text: '12+ Years Experience', color: 'text-primary-400' },
     { icon: Rocket, text: 'Big Data + Spark Expert', color: 'text-purple-400' },
     {icon: BrainCircuit, text:'AI Specialist', color: 'text-yellow-400'},
     { icon: Users, text: 'Team Leadership', color: 'text-green-400' }
@@ -38,7 +38,7 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-lg text-slate-300 leading-relaxed">
-                With 11+ years of experience in Data Engineering and Big Data technologies. Currently, I work as a Technology Lead, where I design and develop scalable ETL solutions for the banking domain. My expertise includes <span className="text-primary-400 font-semibold">Apache Spark, Hadoop, Hive, Azure Data Factory, Azure Databricks, Azure Data Lake, SQL, and cloud-based data engineering.</span> I enjoy building efficient, high-performance data pipelines and solving complex data challenges.
+                With 12+ years of experience in Data Engineering and Big Data technologies. Currently, I work as a Technology Lead, where I design and develop scalable ETL solutions for the banking domain. My expertise includes <span className="text-primary-400 font-semibold">Apache Spark, Hadoop, Hive, Azure Data Factory, Azure Databricks, Azure Data Lake, SQL, and cloud-based data engineering.</span> I enjoy building efficient, high-performance data pipelines and solving complex data challenges.
               </p>
               <p  className="text-lg text-slate-300 leading-relaxed">
                 Throughout my career, I have worked on enterprise data platforms, cloud migration, and end-to-end ETL implementations. My responsibilities include <span className="text-primary-400 font-semibold">solution design, performance optimization, and mentoring team members.</span> I have also worked with Azure services, Power BI, SSIS, and .NET technologies, giving me a strong technical foundation.

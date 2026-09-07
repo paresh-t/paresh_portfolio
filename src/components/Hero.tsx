@@ -121,7 +121,7 @@ const Hero = () => {
             </div>
             <div className="overflow-auto" style={{ height: 'calc(90vh - 88px)' }}>
               <iframe
-                src="/paresh_portfolio/Resume-Pareshkumar_Krishna_Tak.pdf"
+                src="/paresh_portfolio/Paresh_Spark_Big_Data_Profile.pdf"
                 className="w-full h-full"
                 style={{ minHeight: '600px' }}
                 title="Resume PDF"
